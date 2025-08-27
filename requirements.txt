@@ -1,0 +1,28 @@
+# Web / App
+streamlit
+streamlit-option-menu
+
+# Data analysis
+numpy
+pandas
+scipy
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+catboost
+
+# Model saving/loading
+joblib
+pickle-mixin
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Others / Utilities
+requests
+python-dotenv
+Pillow
