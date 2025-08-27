@@ -3,8 +3,12 @@
 ## Project Description
 This project aims to build a classification model to predict the risk of obesity based on various lifestyle and physical attributes.
 
+## Live Demo
+A live Streamlit demo of the model is available here:
+- https://3bood5600-obesity-prediction-model-app-usoa0s.streamlit.app/
+
 ## Data Source
-The dataset used in this project is the Obesity Risk dataset, which can be found [https://www.kaggle.com/competitions/playground-series-s4e2]. It contains information about individuals including their age, height, weight, family history, eating habits, activity levels, and transportation methods.
+The dataset used in this project is the Obesity Risk dataset, which can be found [https://www.kaggle.com/competitions/playground-series-s4e2]. It contains information about individuals including their[...]
 
 ## Steps Taken
 1.  **Data Loading and Initial Exploration**: Loaded the dataset and performed initial checks for data types, missing values, and duplicates.
@@ -25,4 +29,5 @@ The dataset used in this project is the Obesity Risk dataset, which can be found
 *   `scaler.pkl`: A file containing the fitted scaler object.
 *   `best_model.pkl`: The saved best performing model.
 *   `README.md`: This file.
+
 
