@@ -5,7 +5,7 @@ This project aims to build a classification model to predict the risk of obesity
 
 ## Live Demo
 A live Streamlit demo of the model is available here:
-- https://3bood5600-obesity-prediction-model-app-usoa0s.streamlit.app/
+- [https://3bood5600-obesity-prediction-model-app-usoa0s.streamlit.app/]
 
 ## Data Source
 The dataset used in this project is the Obesity Risk dataset, which can be found [https://www.kaggle.com/competitions/playground-series-s4e2]. It contains information about individuals including their[...]
