@@ -1,0 +1,31 @@
+{
+  "best_model":{
+    "name":"XGBoost",
+    "filename":"xgboost_model.pkl",
+    "accuracy":0.9017341040462428,
+    "f1_score":0.9012269132195563,
+    "requires_scaling":false
+  },
+  "preprocessing":{
+    "scaler_file":"feature_scaler.pkl",
+    "feature_info_file":"feature_info.json"
+  },
+  "performance_metrics":{
+    "XGBoost":{
+      "Test_Accuracy":0.9017341040462428,
+      "Test_F1":0.9012269132195563
+    },
+    "Random Forest":{
+      "Test_Accuracy":0.8966763005780347,
+      "Test_F1":0.8963015683087431
+    },
+    "Polynomial Regression (deg=3)":{
+      "Test_Accuracy":0.8766859344894027,
+      "Test_F1":0.8761425168735373
+    },
+    "Logistic Regression":{
+      "Test_Accuracy":0.8583815028901735,
+      "Test_F1":0.8571608822783086
+    }
+  }
+}

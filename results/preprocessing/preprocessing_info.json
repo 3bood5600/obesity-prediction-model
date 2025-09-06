@@ -1,0 +1,99 @@
+{
+  "dataset_info": {
+    "original_shape": [
+      20758,
+      17
+    ],
+    "processed_shape": [
+      20758,
+      48
+    ],
+    "features_added": 31
+  },
+  "feature_types": {
+    "original_numerical_features": [
+      "Age",
+      "Height",
+      "Weight",
+      "FCVC",
+      "NCP",
+      "CH2O",
+      "FAF",
+      "TUE"
+    ],
+    "original_categorical_features": [
+      "Gender",
+      "family_history_with_overweight",
+      "FAVC",
+      "CAEC",
+      "SMOKE",
+      "SCC",
+      "CALC",
+      "MTRANS"
+    ],
+    "scaled_features": [
+      "Age_scaled",
+      "Height_scaled",
+      "Weight_scaled",
+      "FCVC_scaled",
+      "NCP_scaled",
+      "CH2O_scaled",
+      "FAF_scaled",
+      "TUE_scaled"
+    ],
+    "onehot_encoded_features": [
+      "Gender_Female",
+      "Gender_Male",
+      "family_history_with_overweight_no",
+      "family_history_with_overweight_yes",
+      "FAVC_no",
+      "FAVC_yes",
+      "CAEC_Always",
+      "CAEC_Frequently",
+      "CAEC_Sometimes",
+      "CAEC_no",
+      "SMOKE_no",
+      "SMOKE_yes",
+      "SCC_no",
+      "SCC_yes",
+      "CALC_Frequently",
+      "CALC_Sometimes",
+      "CALC_no",
+      "MTRANS_Automobile",
+      "MTRANS_Bike",
+      "MTRANS_Motorbike",
+      "MTRANS_Public_Transportation",
+      "MTRANS_Walking"
+    ],
+    "target_encoded_column": "NObeyesdad_encoded"
+  },
+  "encoding_approach": {
+    "categorical_encoding": "one_hot",
+    "target_encoding": "label_encoding",
+    "numerical_scaling": "standard_scaler"
+  },
+  "target_info": {
+    "target_column": "NObeyesdad",
+    "target_encoded_column": "NObeyesdad_encoded",
+    "target_classes": [
+      "Overweight_Level_II",
+      "Normal_Weight",
+      "Insufficient_Weight",
+      "Obesity_Type_III",
+      "Obesity_Type_II",
+      "Overweight_Level_I",
+      "Obesity_Type_I"
+    ],
+    "num_classes": 7
+  },
+  "preprocessing_applied": {
+    "categorical_encoding": true,
+    "numerical_scaling": true,
+    "one_hot_encoding": true
+  },
+  "quality_metrics": {
+    "missing_values": 0,
+    "duplicate_rows": 0
+  },
+  "processing_timestamp": "2025-09-06T21:59:46.528731"
+}

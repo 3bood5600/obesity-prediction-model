@@ -1,0 +1,64 @@
+{
+  "original_features": 47,
+  "selected_features": 25,
+  "engineered_features_added": 1,
+  "feature_selection_method": "Combined (Mutual Information + Random Forest)",
+  "scaling_method": "StandardScaler",
+  "selected_feature_list": [
+    "BMI",
+    "Weight",
+    "Weight_scaled",
+    "Age",
+    "Age_scaled",
+    "Height",
+    "Height_scaled",
+    "FCVC_scaled",
+    "FCVC",
+    "CH2O_scaled",
+    "CH2O",
+    "TUE",
+    "TUE_scaled",
+    "FAF",
+    "FAF_scaled",
+    "Gender",
+    "Gender_Female",
+    "Gender_Male",
+    "NCP",
+    "NCP_scaled",
+    "family_history_with_overweight",
+    "family_history_with_overweight_yes",
+    "family_history_with_overweight_no",
+    "CAEC",
+    "CALC"
+  ],
+  "new_engineered_features": [
+    "BMI"
+  ],
+  "data_split": {
+    "train_size": 16606,
+    "test_size": 4152,
+    "test_ratio": 0.2
+  },
+  "target_info": {
+    "target_column": "NObeyesdad",
+    "target_classes": [
+      "Overweight_Level_II",
+      "Normal_Weight",
+      "Insufficient_Weight",
+      "Obesity_Type_III",
+      "Obesity_Type_II",
+      "Overweight_Level_I",
+      "Obesity_Type_I"
+    ],
+    "num_classes": 7,
+    "class_distribution": {
+      "Obesity_Type_III": 4046,
+      "Obesity_Type_II": 3248,
+      "Normal_Weight": 3082,
+      "Obesity_Type_I": 2910,
+      "Insufficient_Weight": 2523,
+      "Overweight_Level_II": 2522,
+      "Overweight_Level_I": 2427
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "NObeyesdad": {
+    "Insufficient_Weight": 0,
+    "Normal_Weight": 1,
+    "Obesity_Type_I": 2,
+    "Obesity_Type_II": 3,
+    "Obesity_Type_III": 4,
+    "Overweight_Level_I": 5,
+    "Overweight_Level_II": 6
+  },
+  "Gender_onehot": {
+    "original_feature": "Gender",
+    "encoded_columns": [
+      "Gender_Female",
+      "Gender_Male"
+    ],
+    "encoding_type": "one_hot",
+    "n_categories": 2
+  },
+  "family_history_with_overweight_onehot": {
+    "original_feature": "family_history_with_overweight",
+    "encoded_columns": [
+      "family_history_with_overweight_no",
+      "family_history_with_overweight_yes"
+    ],
+    "encoding_type": "one_hot",
+    "n_categories": 2
+  },
+  "FAVC_onehot": {
+    "original_feature": "FAVC",
+    "encoded_columns": [
+      "FAVC_no",
+      "FAVC_yes"
+    ],
+    "encoding_type": "one_hot",
+    "n_categories": 2
+  },
+  "CAEC_onehot": {
+    "original_feature": "CAEC",
+    "encoded_columns": [
+      "CAEC_Always",
+      "CAEC_Frequently",
+      "CAEC_Sometimes",
+      "CAEC_no"
+    ],
+    "encoding_type": "one_hot",
+    "n_categories": 4
+  },
+  "SMOKE_onehot": {
+    "original_feature": "SMOKE",
+    "encoded_columns": [
+      "SMOKE_no",
+      "SMOKE_yes"
+    ],
+    "encoding_type": "one_hot",
+    "n_categories": 2
+  },
+  "SCC_onehot": {
+    "original_feature": "SCC",
+    "encoded_columns": [
+      "SCC_no",
+      "SCC_yes"
+    ],
+    "encoding_type": "one_hot",
+    "n_categories": 2
+  },
+  "CALC_onehot": {
+    "original_feature": "CALC",
+    "encoded_columns": [
+      "CALC_Frequently",
+      "CALC_Sometimes",
+      "CALC_no"
+    ],
+    "encoding_type": "one_hot",
+    "n_categories": 3
+  },
+  "MTRANS_onehot": {
+    "original_feature": "MTRANS",
+    "encoded_columns": [
+      "MTRANS_Automobile",
+      "MTRANS_Bike",
+      "MTRANS_Motorbike",
+      "MTRANS_Public_Transportation",
+      "MTRANS_Walking"
+    ],
+    "encoding_type": "one_hot",
+    "n_categories": 5
+  }
+}

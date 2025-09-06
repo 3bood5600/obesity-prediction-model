@@ -1,0 +1,14 @@
+{
+  "best_model": "XGBoost",
+  "best_test_accuracy": 0.903179190751445,
+  "average_improvement": 0.2878227803523212,
+  "model_paths": {
+    "Random Forest": "..\\models\\tuned\\random_forest_tuned.pkl",
+    "Logistic Regression": "..\\models\\tuned\\logistic_regression_tuned.pkl",
+    "Polynomial Regression (deg=3)": "..\\models\\tuned\\polynomial_regression_deg_3_tuned.pkl",
+    "XGBoost": "..\\models\\tuned\\xgboost_tuned.pkl"
+  },
+  "results_path": "..\\models\\tuned\\tuned_results.csv",
+  "comparison_path": "..\\models\\tuned\\baseline_vs_tuned_comparison.csv",
+  "hyperparams_path": "..\\models\\tuned\\best_hyperparameters.txt"
+}

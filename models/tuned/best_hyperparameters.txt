@@ -1,0 +1,37 @@
+BEST HYPERPARAMETERS FOR EACH MODEL
+==================================================
+
+Random Forest:
+CV Score: 0.9166
+Parameters:
+  max_depth: 20
+  max_features: log2
+  min_samples_leaf: 1
+  min_samples_split: 2
+  n_estimators: 300
+
+Logistic Regression:
+CV Score: 0.8482
+Parameters:
+  C: 1
+  max_iter: 2000
+  penalty: l1
+  solver: saga
+
+Polynomial Regression (deg=3):
+CV Score: 0.8656
+Parameters:
+  classifier__C: 10
+  classifier__max_iter: 1000
+  classifier__penalty: l2
+  classifier__solver: lbfgs
+
+XGBoost:
+CV Score: 0.9212
+Parameters:
+  colsample_bytree: 0.9
+  learning_rate: 0.2
+  max_depth: 10
+  n_estimators: 300
+  subsample: 0.8
+

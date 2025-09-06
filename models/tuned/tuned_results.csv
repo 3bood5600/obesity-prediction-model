@@ -1,0 +1,5 @@
+,val_accuracy,test_accuracy,best_params,cv_score
+Random Forest,0.8832028898254064,0.8995664739884393,"{'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}",0.9165724338683023
+Logistic Regression,0.8479831426851294,0.8622350674373795,"{'C': 1, 'max_iter': 2000, 'penalty': 'l1', 'solver': 'saga'}",0.8482355861300783
+Polynomial Regression (deg=3),0.8597230583985551,0.8786127167630058,"{'classifier__C': 10, 'classifier__max_iter': 1000, 'classifier__penalty': 'l2', 'classifier__solver': 'lbfgs'}",0.8655718316206411
+XGBoost,0.8847080072245636,0.903179190751445,"{'colsample_bytree': 0.9, 'learning_rate': 0.2, 'max_depth': 10, 'n_estimators': 300, 'subsample': 0.8}",0.9211953526620457

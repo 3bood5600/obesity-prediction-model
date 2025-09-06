@@ -1,0 +1,81 @@
+{
+  "dataset_info": {
+    "original_shape": [
+      20758,
+      18
+    ],
+    "processed_shape": [
+      20758,
+      36
+    ],
+    "features_added": 18
+  },
+  "feature_types": {
+    "numerical_features": [
+      "id",
+      "Age",
+      "Height",
+      "Weight",
+      "FCVC",
+      "NCP",
+      "CH2O",
+      "FAF",
+      "TUE"
+    ],
+    "categorical_features": [
+      "Gender",
+      "family_history_with_overweight",
+      "FAVC",
+      "CAEC",
+      "SMOKE",
+      "SCC",
+      "CALC",
+      "MTRANS"
+    ],
+    "scaled_features": [
+      "id_scaled",
+      "Age_scaled",
+      "Height_scaled",
+      "Weight_scaled",
+      "FCVC_scaled",
+      "NCP_scaled",
+      "CH2O_scaled",
+      "FAF_scaled",
+      "TUE_scaled"
+    ],
+    "encoded_features": [
+      "NObeyesdad",
+      "Gender",
+      "family_history_with_overweight",
+      "FAVC",
+      "CAEC",
+      "SMOKE",
+      "SCC",
+      "CALC",
+      "MTRANS"
+    ]
+  },
+  "target_info": {
+    "target_column": "NObeyesdad",
+    "target_encoded_column": "NObeyesdad_encoded",
+    "target_classes": [
+      "Overweight_Level_II",
+      "Normal_Weight",
+      "Insufficient_Weight",
+      "Obesity_Type_III",
+      "Obesity_Type_II",
+      "Overweight_Level_I",
+      "Obesity_Type_I"
+    ],
+    "num_classes": 7
+  },
+  "preprocessing_applied": {
+    "categorical_encoding": true,
+    "numerical_scaling": true
+  },
+  "quality_metrics": {
+    "missing_values": 0,
+    "duplicate_rows": 0
+  },
+  "processing_timestamp": "2025-09-06T16:10:00.092271"
+}

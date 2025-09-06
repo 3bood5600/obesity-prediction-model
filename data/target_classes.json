@@ -1,0 +1,22 @@
+{
+  "target_column": "NObeyesdad",
+  "target_classes": [
+    "Overweight_Level_II",
+    "Normal_Weight",
+    "Insufficient_Weight",
+    "Obesity_Type_III",
+    "Obesity_Type_II",
+    "Overweight_Level_I",
+    "Obesity_Type_I"
+  ],
+  "num_classes": 7,
+  "class_distribution": {
+    "Obesity_Type_III": 4046,
+    "Obesity_Type_II": 3248,
+    "Normal_Weight": 3082,
+    "Obesity_Type_I": 2910,
+    "Insufficient_Weight": 2523,
+    "Overweight_Level_II": 2522,
+    "Overweight_Level_I": 2427
+  }
+}

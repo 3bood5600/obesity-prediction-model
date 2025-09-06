@@ -1,0 +1,92 @@
+{
+  "id": {
+    "original_mean": 10378.5,
+    "original_std": 5992.462779748128,
+    "original_min": 0.0,
+    "original_max": 20757.0,
+    "scaled_mean": 0.0,
+    "scaled_std": 1.0000240879692672,
+    "scaled_min": -1.7319673694202358,
+    "scaled_max": 1.7319673694202358
+  },
+  "Age": {
+    "original_mean": 23.841804418681953,
+    "original_std": 5.688071958787075,
+    "original_min": 14.0,
+    "original_max": 61.0,
+    "scaled_mean": 1.9237162419172189e-16,
+    "scaled_std": 1.0000240879692672,
+    "scaled_min": -1.7302948273289849,
+    "scaled_max": 6.5328095207000585
+  },
+  "Height": {
+    "original_mean": 1.7002449351575297,
+    "original_std": 0.08731190569718149,
+    "original_min": 1.45,
+    "original_max": 1.975663,
+    "scaled_mean": -1.1069925847616167e-15,
+    "scaled_std": 1.0000240879692672,
+    "scaled_min": -2.8661722711421183,
+    "scaled_max": 3.154491897812772
+  },
+  "Weight": {
+    "original_mean": 87.88776840264958,
+    "original_std": 26.37944307640624,
+    "original_min": 39.0,
+    "original_max": 165.057269,
+    "scaled_mean": -1.2665035756394502e-16,
+    "scaled_std": 1.000024087969267,
+    "scaled_min": -1.853297124890353,
+    "scaled_max": 2.925435507883454
+  },
+  "FCVC": {
+    "original_mean": 2.4459083927184704,
+    "original_std": 0.5332181544582983,
+    "original_min": 1.0,
+    "original_max": 3.0,
+    "scaled_mean": -7.686307511076717e-16,
+    "scaled_std": 1.0000240879692672,
+    "scaled_min": -2.711729166806681,
+    "scaled_max": 1.0391712089886695
+  },
+  "NCP": {
+    "original_mean": 2.7613323068214664,
+    "original_std": 0.7053745958837866,
+    "original_min": 1.0,
+    "original_max": 4.0,
+    "scaled_mean": 7.325182842887631e-17,
+    "scaled_std": 1.0000240879692675,
+    "scaled_min": -2.4970770765185546,
+    "scaled_max": 1.7560846922986435
+  },
+  "CH2O": {
+    "original_mean": 2.029418243665093,
+    "original_std": 0.6084670184548744,
+    "original_min": 1.0,
+    "original_max": 3.0,
+    "scaled_mean": -3.162835956461762e-16,
+    "scaled_std": 1.0000240879692675,
+    "scaled_min": -1.691863336938543,
+    "scaled_max": 1.59516474392179
+  },
+  "FAF": {
+    "original_mean": 0.9817465550756335,
+    "original_std": 0.8383019759696896,
+    "original_min": 0.0,
+    "original_max": 3.0,
+    "scaled_mean": 9.584351383217461e-18,
+    "scaled_std": 1.0000240879692672,
+    "scaled_min": -1.1711414639346838,
+    "scaled_max": 2.4076074235858616
+  },
+  "TUE": {
+    "original_mean": 0.616756223696888,
+    "original_std": 0.6021134769922342,
+    "original_min": 0.0,
+    "original_max": 2.0,
+    "scaled_mean": -9.276282945899756e-17,
+    "scaled_std": 1.0000240879692672,
+    "scaled_min": -1.0243435891567076,
+    "scaled_max": 2.297369430670501
+  }
+}

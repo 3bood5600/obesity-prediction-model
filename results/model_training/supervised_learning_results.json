@@ -1,0 +1,77 @@
+{
+  "model_comparison":{
+    "XGBoost":{
+      "CV_Mean":0.9001807569003905,
+      "CV_Std":0.001215796099277311,
+      "Val_Accuracy":0.8889223359422035,
+      "Test_Accuracy":0.9017341040462428,
+      "Val_F1":0.8890883784698919,
+      "Test_F1":0.9012269132195563,
+      "Val_Precision":0.8894530300099226,
+      "Test_Precision":0.9015177988287401,
+      "Val_Recall":0.8889223359422035,
+      "Test_Recall":0.9017341040462428
+    },
+    "Random Forest":{
+      "CV_Mean":0.8937819116133333,
+      "CV_Std":0.0036154886194906784,
+      "Val_Accuracy":0.8807947019867549,
+      "Test_Accuracy":0.8966763005780347,
+      "Val_F1":0.881079084859732,
+      "Test_F1":0.8963015683087431,
+      "Val_Precision":0.8816806445993298,
+      "Test_Precision":0.8962941309718765,
+      "Val_Recall":0.8807947019867549,
+      "Test_Recall":0.8966763005780347
+    },
+    "Polynomial Regression (deg=3)":{
+      "CV_Mean":0.8675092730727199,
+      "CV_Std":0.0068968812294703755,
+      "Val_Accuracy":0.8576158940397351,
+      "Test_Accuracy":0.8766859344894027,
+      "Val_F1":0.8577796399860338,
+      "Test_F1":0.8761425168735373,
+      "Val_Precision":0.8582295298462684,
+      "Test_Precision":0.8759689490589059,
+      "Val_Recall":0.8576158940397351,
+      "Test_Recall":0.8766859344894027
+    },
+    "Logistic Regression":{
+      "CV_Mean":0.8558415540218836,
+      "CV_Std":0.0012436734322723143,
+      "Val_Accuracy":0.845574954846478,
+      "Test_Accuracy":0.8583815028901735,
+      "Val_F1":0.8451482749490485,
+      "Test_F1":0.8571608822783086,
+      "Val_Precision":0.8460775107482476,
+      "Test_Precision":0.8573541532480119,
+      "Val_Recall":0.845574954846478,
+      "Test_Recall":0.8583815028901735
+    }
+  },
+  "best_model":{
+    "name":"XGBoost",
+    "test_accuracy":0.9017341040462428,
+    "test_f1":0.9012269132195563,
+    "cv_mean":0.9001807569003905,
+    "cv_std":0.001215796099277311
+  },
+  "training_info":{
+    "timestamp":"2025-09-06T22:00:39.145270",
+    "dataset_shape":[
+      20758,
+      25
+    ],
+    "n_classes":7,
+    "train_size":13284,
+    "val_size":3322,
+    "test_size":4152,
+    "smote_applied":true,
+    "models_trained":[
+      "Random Forest",
+      "Logistic Regression",
+      "Polynomial Regression (deg=3)",
+      "XGBoost"
+    ]
+  }
+}

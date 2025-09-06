@@ -1,0 +1,82 @@
+{
+  "dataset_shape": [
+    20758,
+    18
+  ],
+  "numerical_features": [
+    "id",
+    "Age",
+    "Height",
+    "Weight",
+    "FCVC",
+    "NCP",
+    "CH2O",
+    "FAF",
+    "TUE"
+  ],
+  "categorical_features": [
+    "Gender",
+    "family_history_with_overweight",
+    "FAVC",
+    "CAEC",
+    "SMOKE",
+    "SCC",
+    "CALC",
+    "MTRANS"
+  ],
+  "target_variable": "NObeyesdad",
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "target_classes": [
+    "Overweight_Level_II",
+    "Normal_Weight",
+    "Insufficient_Weight",
+    "Obesity_Type_III",
+    "Obesity_Type_II",
+    "Overweight_Level_I",
+    "Obesity_Type_I"
+  ],
+  "cramers_v_results": [
+    {
+      "Feature": "Gender",
+      "Cramers_V": 0.6187857134727642,
+      "Strength": "Strong"
+    },
+    {
+      "Feature": "family_history_with_overweight",
+      "Cramers_V": 0.5560251649311694,
+      "Strength": "Strong"
+    },
+    {
+      "Feature": "FAVC",
+      "Cramers_V": 0.2730556719184122,
+      "Strength": "Moderate"
+    },
+    {
+      "Feature": "CAEC",
+      "Cramers_V": 0.3323923620573297,
+      "Strength": "Strong"
+    },
+    {
+      "Feature": "SMOKE",
+      "Cramers_V": 0.10065553890008161,
+      "Strength": "Moderate"
+    },
+    {
+      "Feature": "SCC",
+      "Cramers_V": 0.2215449156136416,
+      "Strength": "Moderate"
+    },
+    {
+      "Feature": "CALC",
+      "Cramers_V": 0.3104573207212714,
+      "Strength": "Strong"
+    },
+    {
+      "Feature": "MTRANS",
+      "Cramers_V": 0.16735480349716447,
+      "Strength": "Moderate"
+    }
+  ],
+  "analysis_timestamp": "2025-09-06T21:59:30.622394"
+}
